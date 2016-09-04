@@ -2,7 +2,7 @@ package testcase;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -21,14 +21,14 @@ public class NewTest {
 	public void beforeTest() {
 		// voi browser=firefox
 
-		//driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
 		//driver = new ChromeDriver();
 
 		// voi browser = chrome
 		
-		 System.setProperty("webdriver.chrome.driver",
+		 /*System.setProperty("webdriver.chrome.driver",
 		 System.getProperty("user.dir") +"\\Setup\\chromedriver.exe");
-		 driver=new ChromeDriver();
+		 driver=new ChromeDriver();*/
 	}
 
 	@AfterTest
