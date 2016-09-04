@@ -23,6 +23,7 @@ public class NewTest {
 
 		driver = new FirefoxDriver();
 		//driver = new ChromeDriver();
+		//lala
 
 		// voi browser = chrome
 		
